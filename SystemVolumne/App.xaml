@@ -1,0 +1,23 @@
+﻿<Application x:Class="SystemVolumne.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SystemVolumne"
+             StartupUri="MainWindow.xaml" Startup="Application_Startup">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/SystemVolumne;component/Style/Button.xaml"/>
+                <ResourceDictionary Source="/SystemVolumne;component/Style/CheckBox.xaml"/>
+                <ResourceDictionary Source="/SystemVolumne;component/Style/ComboBox.xaml"/>
+                <ResourceDictionary Source="/SystemVolumne;component/Style/ContextMenu.xaml"/>
+                <ResourceDictionary Source="/SystemVolumne;component/Style/GroupBox.xaml"/>
+                <ResourceDictionary Source="/SystemVolumne;component/Style/Label.xaml"/>
+                <ResourceDictionary Source="/SystemVolumne;component/Style/ListView.xaml"/>
+                <ResourceDictionary Source="/SystemVolumne;component/Style/RadioButton.xaml"/>
+                <ResourceDictionary Source="/SystemVolumne;component/Style/Slider.xaml"/>
+                <ResourceDictionary Source="/SystemVolumne;component/Style/TabControl.xaml"/>
+                <ResourceDictionary Source="/SystemVolumne;component/Style/TextBox.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
